@@ -1,0 +1,42 @@
+name: fadi_farm
+description: "FADI FARM - A complete farming simulation game built with Flutter. Grow crops, raise animals, earn money, and build your dream farm!"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management - GetX makes state management super easy for beginners
+  get: ^4.6.6
+  
+  # Local Storage - Save your game progress
+  shared_preferences: ^2.2.2
+  
+  # Google Mobile Ads - AdMob integration for monetization
+  google_mobile_ads: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets folders - where images and sounds go
+  assets:
+    - assets/images/
+    - assets/images/player/
+    - assets/images/animals/
+    - assets/images/crops/
+    - assets/images/buildings/
+    - assets/images/ui/
+    - assets/sounds/
+    - assets/sounds/sfx/
+    - assets/sounds/music/
